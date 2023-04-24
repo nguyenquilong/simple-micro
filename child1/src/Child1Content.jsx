@@ -13,8 +13,8 @@ export default function Child1Content() {
 
   return (
     <div className="grid grid-cols-4 gap-5">
-        <p>child1 content  </p>
-        <button onClick={handleClick}>Send message to B</button>
+        <p>child1 content </p>
+        <button onClick={handleClick}>Send message to B - gửi qua pubsub</button>
         <Pubsub1 />
     </div>
   );
